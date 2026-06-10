@@ -1,4 +1,4 @@
-package com.suhyeon327.spring_hospital_system.controller;
+package com.suhyeon327.hospital.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

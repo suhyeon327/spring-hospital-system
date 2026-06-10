@@ -1,4 +1,4 @@
-package com.suhyeon327.spring_hospital_system.model;
+package com.suhyeon327.hospital.model;
 
 public class Patient {
 

@@ -1,4 +1,4 @@
-package com.suhyeon327.spring_hospital_system;
+package com.suhyeon327.hospital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
