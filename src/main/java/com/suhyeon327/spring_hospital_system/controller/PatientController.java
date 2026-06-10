@@ -1,7 +1,7 @@
-package com.example.spring_hospital_system.controller;
+package com.suhyeon327.spring_hospital_system.controller;
 
-import com.example.spring_hospital_system.model.Patient;
-import com.example.spring_hospital_system.service.PatientService;
+import com.suhyeon327.spring_hospital_system.model.Patient;
+import com.suhyeon327.spring_hospital_system.service.PatientService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.example.spring_hospital_system.service;
+package com.suhyeon327.spring_hospital_system.service;
 
-import com.example.spring_hospital_system.model.Patient;
+import com.suhyeon327.spring_hospital_system.model.Patient;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
