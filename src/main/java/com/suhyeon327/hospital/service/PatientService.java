@@ -22,4 +22,28 @@ public class PatientService {
     public List<Patient> findAll() {
         return patients;
     }
+
+    // UPDATE
+    public boolean update(int id, String name, int age) {
+        for (Patient patient : patients) {
+            if (patient.getId() == id) {
+                patient.setName(name);
+                patient.setAge(age);
+
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // DELETE
+    public boolean delete(int id) {
+        for (int i = 0; i < patients.size(); i++) {
+            if (patients.get(i).getId() == id) {
+                patients.remove(i);
+                return true;
+            }
+        }
+        return false;
+    }
 }
